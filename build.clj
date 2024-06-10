@@ -2,9 +2,9 @@
   (:refer-clojure :exclude [test])
   (:require [clojure.tools.build.api :as b]))
 
-(def lib 'net.clojars.reddit-to-rss/core)
+(def lib 'net.clojars.reddit-to-rss/web)
 (def version "0.1.0-SNAPSHOT")
-(def main 'reddit-to-rss.core)
+(def main 'reddit-to-rss.web)
 (def class-dir "target/classes")
 
 (defn test "Run all the tests." [opts]
